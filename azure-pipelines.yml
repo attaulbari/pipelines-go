@@ -28,8 +28,8 @@ steps:
   displayName: 'Set up the Go workspace'
 
 - script: |
-    go version
-  displayName: 'go version'
+    go env
+  displayName: 'go env'
 
 - script: |
     go version
