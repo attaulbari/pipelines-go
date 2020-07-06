@@ -8,7 +8,7 @@ pool:
 
 variables:
 #  imageName: 'pipelines-go:$(build.buildId)'
-imageName: 'pipelines-go'
+  imageName: 'pipelines-go'
 
 
 #steps:
